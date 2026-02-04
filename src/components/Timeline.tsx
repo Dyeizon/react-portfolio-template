@@ -14,54 +14,43 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2023 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">IT Technician</h3>
+            <h4 className="vertical-timeline-element-subtitle">Câmara Municipal, Videira/SC, Brazil</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Currently working as an IT Technician in a municipal legislative body, supporting public sector operations through system maintenance, technological modernization, and the integration of new digital tools to improve efficiency and internal processes.
             </p>
           </VerticalTimelineElement>
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2022 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">IT and Programming Instructor</h3>
+            <h4 className="vertical-timeline-element-subtitle">CETESC, Videira/SC, Brazil</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Taught programming fundamentals and information technology concepts, covering basic development logic, algorithms, and introductory programming languages. Guided students through hands-on exercises and practical projects, focusing on problem-solving skills, logical thinking, and the application of programming concepts in real-world scenarios.
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2022 - 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Technical Support Analyst</h3>
+            <h4 className="vertical-timeline-element-subtitle">INFONET, Videira/SC, Brazil</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Provided remote technical support to telecommunications customers, diagnosing and resolving internet connectivity issues. Assisted clients via phone and remote access tools, performed network troubleshooting, and ensured service stability while maintaining clear and effective communication.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
-          </VerticalTimelineElement>
+
         </VerticalTimeline>
       </div>
     </div>

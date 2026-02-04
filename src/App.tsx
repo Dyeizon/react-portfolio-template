@@ -1,10 +1,9 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 import {
   Main,
   Timeline,
   Expertise,
   Project,
-  Contact,
   Navigation,
   Footer,
 } from "./components";
@@ -34,7 +33,7 @@ function App() {
             <Expertise/>
             <Timeline/>
             <Project/>
-            <Contact/>
+            {/* <Contact/> */}
         </FadeIn>
         <Footer />
     </div>
