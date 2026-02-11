@@ -3,6 +3,8 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import project01 from '../assets/images/project01.png';
+import project02 from '../assets/images/project02.png';
+
 import '../assets/styles/Project.scss';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -10,14 +12,25 @@ import { Chip } from '@mui/material';
 
 const proj1Stack = [
     "React",
-    "Next.js",
-    "Tailwind",
+    "Next",
+    "TailwindCSS",
     "Python",
     "FastAPI",
     "MongoDB",
     "ML",
     "NLP",
     'BeautifulSoup',
+];
+
+const proj2Stack = [
+    "React",
+    "Next",
+    "TypeScript",
+    "TailwindCSS",
+    "Node",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
 ];
 
 function Project() {
@@ -35,9 +48,20 @@ function Project() {
                 </div></p>
                 
             </div>
+
+            <div className="project">
+                <a href={project02} target="_blank" rel="noreferrer"><img src={project02} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://github.com/Dyeizon/OrderManager" target="_blank" rel="noreferrer"><GitHubIcon/> Agiliza Aí</a></h2>
+                <p>Designed and developed a web-based order management system for restaurants and food service businesses. The application allows staff to register and organize customer orders, manage kitchen workflows using a drag-and-drop interface across order stages such as queue, in production, and ready, and handle payments via Pix. The system also displays ready orders on a public screen, improving order tracking, kitchen efficiency, and customer experience.<div className="flex-chips">
+                    {proj2Stack.map((label, index) => (
+                        <Chip key={index} className='chip' label={label} />
+                    ))}
+                </div></p>
+                
+            </div>
             <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2><a href="https://github.com/Dyeizon" target="_blank" rel="noreferrer"><GitHubIcon/></a> High Speed Chase</h2></a>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2><a href="https://github.com/Dyeizon/OrderManager" target="_blank" rel="noreferrer"><GitHubIcon/></a> High Speed Chase</h2></a>
                 <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
             </div>
             <div className="project">
