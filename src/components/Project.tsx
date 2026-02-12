@@ -1,7 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
 import project01 from '../assets/images/project01.png';
 import project02 from '../assets/images/project02.png';
 import project03 from '../assets/images/project03.png';
