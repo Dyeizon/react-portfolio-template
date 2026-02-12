@@ -4,6 +4,7 @@ import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import project01 from '../assets/images/project01.png';
 import project02 from '../assets/images/project02.png';
+import project03 from '../assets/images/project03.png';
 
 import '../assets/styles/Project.scss';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
@@ -33,6 +34,17 @@ const proj2Stack = [
     "JWT",
 ];
 
+const proj3Stack = [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+];
+
 function Project() {
     return(
     <div className="projects-container" id="projects">
@@ -46,7 +58,6 @@ function Project() {
                         <Chip key={index} className='chip' label={label} />
                     ))}
                 </div></p>
-                
             </div>
 
             <div className="project">
@@ -57,8 +68,18 @@ function Project() {
                         <Chip key={index} className='chip' label={label} />
                     ))}
                 </div></p>
-                
             </div>
+
+            <div className="project">
+                <a href={project03} target="_blank" rel="noreferrer"><img src={project03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://github.com/Dyeizon/bau-da-saude" target="_blank" rel="noreferrer"><GitHubIcon/> Baú da Saúde</a></h2>
+                <p>Designed and developed a web application that allows patients to organize medical exams, register health metrics, visualize historical data through interactive time-based charts, and receive periodic email reminders for recurring medical exams.<div className="flex-chips">
+                    {proj3Stack.map((label, index) => (
+                        <Chip key={index} className='chip' label={label} />
+                    ))}
+                </div></p>
+            </div>
+
             <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2><a href="https://github.com/Dyeizon/OrderManager" target="_blank" rel="noreferrer"><GitHubIcon/></a> High Speed Chase</h2></a>
