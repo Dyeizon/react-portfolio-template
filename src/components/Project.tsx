@@ -62,9 +62,8 @@ const proj5Stack = [
 ];
 
 const proj6Stack = [
-    "Vue",
+    "React",
     "Bootstrap",
-    "Vite",
 ];
 
 function Project() {
@@ -114,8 +113,8 @@ function Project() {
 
              <div className="project">
                 <a href={project06} target="_blank" rel="noreferrer"><img src={project06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <h2><a href="https://github.com/Dyeizon/TarotPage" target="_blank" rel="noreferrer"><GitHubIcon/> Tarology Landing Page</a></h2>
-                <p>This project was one of my first, and during its development I learned key concepts such as responsive design, manual CSS styling, carousel components, and building interfaces from scratch, with a little help from Bootstrap.<div className="flex-chips">
+                <h2><a href="https://github.com/Dyeizon/arcannus" target="_blank" rel="noreferrer"><GitHubIcon/> Arcannus</a></h2>
+                <p>This project was one of my first. It consists in a tarology landing page, and during its development I learned key concepts such as responsive design, manual CSS styling, carousel components, and building interfaces from scratch, with a little help from Bootstrap.<div className="flex-chips">
                     {proj6Stack.map((label, index) => (
                         <Chip key={index} className='chip' label={label} />
                     ))}
