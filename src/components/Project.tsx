@@ -4,6 +4,7 @@ import project02 from '../assets/images/project02.png';
 import project03 from '../assets/images/project03.png';
 import project04 from '../assets/images/project04.png';
 import project05 from '../assets/images/project05.png';
+import project06 from '../assets/images/project06.png';
 
 import '../assets/styles/Project.scss';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
@@ -60,6 +61,12 @@ const proj5Stack = [
     "MVC",
 ];
 
+const proj6Stack = [
+    "Vue",
+    "Bootstrap",
+    "Vite",
+];
+
 function Project() {
     return(
     <div className="projects-container" id="projects">
@@ -97,7 +104,7 @@ function Project() {
 
             <div className="project">
                 <a href={project04} target="_blank" rel="noreferrer"><img src={project04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <h2><a href="https://github.com/Dyeizon/bau-da-saude" target="_blank" rel="noreferrer"><GitHubIcon/> Vitis</a></h2>
+                <h2><a href="https://github.com/Dyeizon/vitis-front" target="_blank" rel="noreferrer"><GitHubIcon/> Vitis</a></h2>
                 <p>The <b>Vitis</b> web app supports viticulture analysis by correlating grape growth stages with environmental data such as temperature and humidity, retrieved automatically via APIs, to indicate potential fungal risks based on location and climatic conditions.<div className="flex-chips">
                     {proj4Stack.map((label, index) => (
                         <Chip key={index} className='chip' label={label} />
@@ -106,15 +113,24 @@ function Project() {
             </div>
 
              <div className="project">
+                <a href={project06} target="_blank" rel="noreferrer"><img src={project06} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://github.com/Dyeizon/TarotPage" target="_blank" rel="noreferrer"><GitHubIcon/> Tarology Landing Page</a></h2>
+                <p>This project was one of my first, and during its development I learned key concepts such as responsive design, manual CSS styling, carousel components, and building interfaces from scratch, with a little help from Bootstrap.<div className="flex-chips">
+                    {proj6Stack.map((label, index) => (
+                        <Chip key={index} className='chip' label={label} />
+                    ))}
+                </div></p>
+            </div>
+
+             <div className="project">
                 <a href={project05} target="_blank" rel="noreferrer"><img src={project05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <h2><a href="https://github.com/Dyeizon/bau-da-saude" target="_blank" rel="noreferrer"><GitHubIcon/> BancaDeDados</a></h2>
+                <h2><a href="https://github.com/Dyeizon/BancaDeDados" target="_blank" rel="noreferrer"><GitHubIcon/> BancaDeDados</a></h2>
                 <p><b>BancaDeDados</b> is a CRUD web application for organizing and managing clients, managers, products and purchases.<div className="flex-chips">
                     {proj5Stack.map((label, index) => (
                         <Chip key={index} className='chip' label={label} />
                     ))}
                 </div></p>
             </div>
-
 
             {/* <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
