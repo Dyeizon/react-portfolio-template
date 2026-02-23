@@ -73,7 +73,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <a href={project01} target="_blank" rel="noreferrer"><img src={project01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <h2><FontAwesomeIcon  icon={faLock} size="2xs"/> Council Vote Prediction System <span style={{fontSize:'16px'}}>(private)</span></h2>
+                <h2><a href="https://github.com/Dyeizon/council-vote-predict" target="_blank" rel="noreferrer"><GitHubIcon/> Council Vote Prediction</a></h2>
                 <p>Designed, developed, and launched a council vote prediction system that uses machine learning and natural language processing to analyze legislative data and textual records. The system processes historical voting data and the political alignment between council members, exposing predictions through an interactive web interface, with a focus on data analysis and transparency.<div className="flex-chips">
                     {proj1Stack.map((label, index) => (
                         <Chip key={index} className='chip' label={label} />
