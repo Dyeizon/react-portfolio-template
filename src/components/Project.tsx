@@ -7,7 +7,6 @@ import project05 from '../assets/images/project05.png';
 import project06 from '../assets/images/project06.png';
 
 import '../assets/styles/Project.scss';
-import { faLock } from '@fortawesome/free-solid-svg-icons';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Chip } from '@mui/material';
 
