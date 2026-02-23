@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import project01 from '../assets/images/project01.png';
 import project02 from '../assets/images/project02.png';
 import project03 from '../assets/images/project03.png';
